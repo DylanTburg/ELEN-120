@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//copyright Dylan Thornburg 10/17/2023
 int main()
 {
     char cond = 'y';
