@@ -15,7 +15,7 @@ int main()
         int c=0;
         int v=0;
         printf("Enter your two numbers (in hex, no 0x prefix): \n");
-        scanf("%X %X", &x, &y);
+        scanf("%lX %lX", &x, &y);
         printf("\nWould you like to do subtraction or addition? Type '-' for subtraction or '+' for addition: ");
         scanf(" %c", &k);
         if (k == '-')
@@ -47,7 +47,7 @@ int main()
         {
             n = 1;
         }
-        printf("The result is %X\n", result);
+        printf("The result is %lX\n", result);
         printf("Flags:\nN=%d \nZ=%d \nC=%d \nV=%d",n,z,c,v);
         printf("\nWould you like to test again? Type y if yes. ");
         scanf(" %c", &cond);
